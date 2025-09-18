@@ -1,4 +1,4 @@
-# The Ultimate Prompting Guide : Official Best Practices from  Anthropic x OpenAI x Google
+# The Ultimate Prompting Guide : (Anthropic x OpenAI x Google) - Official Best Practices
 
 _Last update : Sept 15, 2025_
 
@@ -39,7 +39,7 @@ You’ll find:
 - **Illustrated patterns** including XML-tagged prompts, tool preambles, structured output formats
 - **A “CAPSTONE” advanced example** that implements *all* best practices in one real-world use case
 - **Model-specific differences**: like how Anthropic leans into tool use via XML schemas, how OpenAI uses reasoning_effort, and how Gemini focuses on safety + formatting
-- **Prompt Optimizer Tools**: Guide to each provider's official prompt refining & evaluating tools. You can optimize your prompts w/ — playgrounds, workbenches, and parameter controls that let you quickly test and improve prompts before deployment
+- **Prompt Optimizing Tools**: Guide to each provider's official prompt refining & evaluating tools. You can optimize your prompts w/ — playgrounds, workbenches, and parameter controls that let you quickly test and improve prompts before deployment
 
 Each tip is backed by citations like [A1] (Anthropic), [O2] (OpenAI), [G1] (Gemini) — and the full guide includes these references inline and in context. Full List of references listed seperately.
 
@@ -88,3 +88,15 @@ This guide is ideal for:
 - **Developers** building with multi-model stacks (e.g. OpenAI + Claude fallback)
 - **Product managers** wanting to better communicate prompting strategies with their teams
 - **AI-curious folks** who want to understand prompt design at a systems level
+
+### **🔑 Best Practices Illustrated**
+- **System prompt** (persistent role & rules): fixes persona, tone, refusal policy.
+- **Tool preamble** (OpenAI-style): plan → act → narrate → stop; ensures transparent agent behavior.
+- **Safety budget**: explicit limits on tool calls, unsafe inputs, and refusal triggers.
+- **Instructions first, reminders last**: bookended constraints to survive long-context drift.
+- **XML segmentation**: \<instructions\>, \<examples\>, \<context\>, \<format\> ensure clarity.
+- **Few-shot example**: short, consistent, schema-aligned illustration.
+- **Schema + format template**: guarantees structured output that downstream apps can parse.
+- **Guardrails**: "don't invent KPIs," "safe refusal," JSON-only output.
+- **Long-context strategy**: summary cap, repetition of key rules at end.
+- **Self-containment**: evaluation criteria embedded (≤120 words, ≤2 tool calls, JSON-safe).

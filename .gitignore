@@ -1,0 +1,31 @@
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code files
+.claude/
+CLAUDE.md
+
+# macOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
