@@ -1,14 +1,14 @@
-# The Ultimate Prompt Refining Guide : (Anthropic x OpenAI x Google) - Official Best Practices
+# The Prompt Refining Guide : Best Practices from Anthropic x OpenAI x Google
 
 _Last update : Sept 15, 2025_
 
 A comprehensive, side‑by‑side synthesis of official prompting guidance from Anthropic, OpenAI, and Gemini. Each section blends shared best practices and highlights where guidance differs. All Inline references to official sources use tags like [A1], [O1], [G1] and are expanded at the end.
 
-Prompt engineering is everywhere, but clear, actionable *comparisons* across providers are rare. Most guides are either model-specific, overly abstract, or filled with internet noise.
+Prompting is everywhere, but clear, actionable *comparisons* across providers are rare. Most guides are either model-specific, overly abstract, or filled with internet noise.
 
 Original source:
 
-> This guide sources from the official best-practices documentation from:
+> This guide sources the official prompting documentation from:
 > 
 - OpenAI ([GPT-4 & GPT-5 Prompting Guide](https://platform.openai.com/docs/guides/prompt-engineering))
 - Anthropic ([Claude Prompt Engineering Docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview))
@@ -28,7 +28,7 @@ Each tip shows citations - [A1] (Anthropic), [O2] (OpenAI), [G1] (Gemini)
 
 ---
 
-## ⚠️ **What This Guide Isn’t**
+## ⚠️ **NOTE**
 
 This guide is focused specifically on **refining prompts for effective single-turn or few-turn usage** — concise, tactical, and results-oriented.
 
